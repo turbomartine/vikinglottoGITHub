@@ -1,0 +1,114 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link href="vikinglotto.css" rel="stylesheet">
+        <title>Vikinglotto</title>
+    </head>
+    <body>
+    <div class='boxForAll'>    
+        <div class="Wrapper-boxForWeeks-NewNumbers">
+            <div class='boxForWeeks'>
+                <div class='weeks-wrapper'>
+                    <h2>Velg antall uker selv</h2>
+                    <div class='counter weeks'>
+                        <button class='minus'>-</button>
+                        <div class='amount'>1</div>
+                        <button class='plus'>+</button>
+                    </div>
+                </div>
+            </div>
+            <button class="newNumbers">Trekk nye tall</button>
+        </div>
+
+        <div class="wrapper-for-full-coupon">
+            <div class="your-coupon-number-of-weeks">
+                <p>Din kupong - </p><div class="amount-in-text">1</div><p> uke</p>
+            </div>
+            <div class="title-actual-and-viking-coupon">
+                <p>Hovedtall</p>
+                <p>Vikingtall</p>
+            </div>
+            <div class="wrapper-for-boxCoupon-and-boxViking">
+
+                <div class="boxForActualCoupon">
+                <!-- all shit from js inserted here -->
+                </div>
+
+                <div class="boxForActualCouponViking">
+                    <!-- all shit from js insterted here -->
+                </div>
+            </div>
+            <div class="number-of-coupons">
+                <p>1 av </p><div class="amount-coupons-in-text">1</div> <p> kuponger</p>
+            </div>
+        </div>
+        <div class="right-side-box">
+            <div class="money-in-bank">
+                <h5>ca.</h5>
+                <h3>29</h3>
+                <h4>millioner</h4>
+                <h6>i førstepremiepotten</h6>
+                <p>Spill før onsdag kl 18.00</p>
+            </div>
+
+            <div class='boxForCouponsAndRandom'>
+
+                <div class="counter-wrapper">
+                    <h2>Antall tilfeldige kuponger</h2>
+                    <div class="coupon-wrapper">
+                        <div class="counter coupons">
+                            <button class="minus">-</button>
+                            <div class="amount">1</div>
+                            <button class="plus">+</button>
+                        </div>
+
+                        <div class="firstResult">
+                            <span class="firstValue"></span><span>kr</span>
+                        </div>
+                    </div>
+                </div>
+        
+
+
+
+                <button class="moreChoices">+ Flere valg</button>
+
+                <div class="counter-wrapper">
+                    <h2 class="counter-wrapperTitle">Antall ganger</h2>
+
+                    <div class="wrapper">
+                        <div class="counter random">
+                            <button class="minus">-</button>
+                            <div class="amount">1</div>
+                            <button class="plus">+</button>
+                        </div>
+
+                        <div class="result">
+                            <span class="value"></span><span>kr</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jokerWednesday">
+                    <input type="checkbox" class="checkbox">
+                    <img class="jokerPic" src="https://www.norsk-tipping.no/_public/theme-ntno/assets/images/brands/positive/normal/joker.png">
+                    <p>Onsdag</p>
+                    <div class="priceOfJokerWednesday">
+                        <span class="jokerWednesdayValue">20</span><span>kr</span>
+                    </div>
+                </div>
+
+                <div class='handInGame'>
+                    <button class='handInPlusPrice'>
+                        <span class='handInGameText'>Lever spill</span>
+                        <span class='fullPrice'></span> <span class='nok'>kr</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="coupon.js"></script>
+        <script src="vikinglotto.js"></script> 
+    </body>
+</html>
